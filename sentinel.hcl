@@ -25,3 +25,7 @@ policy "require-modules-from-pmr" {
 policy "blacklist-resources.sentinel" {
   enforcement_level = "hard-mandatory"
 }
+
+policy "cost-estimate.sentinel" {
+  enforcement_level = "hard-mandatory"
+}
